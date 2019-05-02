@@ -1,0 +1,43 @@
+[{
+        "marca": "Renault",
+        "modelo": "Megane Renault Sport",
+        "lanzamiento": 2015,
+        "precio": 36000
+    },
+    {
+        "marca": "Volkswagen",
+        "modelo": "Golf R32",
+        "lanzamiento": 2012,
+        "precio": 33500
+    },
+    {
+        "marca": "Ford",
+        "modelo": "Focus RS",
+        "lanzamiento": 2010,
+        "precio": 34200
+    },
+    {
+        "marca": "Seat",
+        "modelo": "León Cupra 300",
+        "lanzamiento": 2016,
+        "precio": 27000
+    },
+    {
+        "marca": "Skoda",
+        "modelo": "Octacia RS",
+        "lanzamiento": 2011,
+        "precio": 46000
+    },
+    {
+        "marca": "Hyundai",
+        "modelo": "i30 N",
+        "lanzamiento": 2018,
+        "precio": 38250
+    },
+    {
+        "marca": "Peugeot",
+        "modelo": "308 GTi",
+        "lanzamiento": 2014,
+        "precio": 29500
+    }
+]
