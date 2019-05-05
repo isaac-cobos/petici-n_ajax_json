@@ -1,0 +1,51 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Prueba Técnica de JavaScript, jQuery & AJAX</title>
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="css/main.css">
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/main.js"></script>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+        <a class="navbar-brand" href="#">VASS</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <section class="jumbotron container">
+        <h1 class="display-4">VASS</h1>
+        <p class="lead">Esta es la prueba técnica que hemos diseñado para que demuestres tus conocimientos de JavaScript, jQuery & AJAX</p>
+        <hr class="my-4">
+        <p>Para realizar la prueba de manera satisfactoria deberás...</p>
+        <ul>
+            <li>Convertir, a través de una petición AJAX, el documento HTML estático que te entregamos en una app front consumiendo los datos dinámicamente de la carpeta data a través de una petición AJAX.</li>
+            <li>Todos los archivos externos que necesitas están incluidos en la prueba, pero deberás enlazarlos en la parte del documento que mejor consideres.</li>
+            <li>Deberás obviar los datos que no sean necesarios.</li>
+            <li>Deberás dar el mismo formato (mayúsculas/minúsculas) a los datos que el ejemplo estático.</li>
+            <li>Deberás mostrar el precio proveniente del JSON con un 21% de IVA ya incluido.</li>
+            <li>El listado solo deberá aparecer en el DOM cuando pulse el botón de "Mostrar Listado"</li>
+        </ul>
+        <a id="boton" class="btn btn-primary btn-lg" role="button">Mostrar listado</a>
+    </section>
+    <section class="container">
+        <div id="listCars"></div>
+        
+    </section>
+</body>
+</html>
